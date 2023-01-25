@@ -12,6 +12,10 @@ repositories {
 }
 
 dependencies {
+    implementation("io.reactivex.rxjava3:rxjava:3.1.6")
+    implementation("org.slf4j:slf4j-api:2.0.6")
+
+    testImplementation("ch.qos.logback:logback-classic:1.4.5")
     testImplementation(kotlin("test"))
 }
 
